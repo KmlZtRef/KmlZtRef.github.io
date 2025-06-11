@@ -1,0 +1,11 @@
+::meta
+artist;かめりあ(Camellia);
+music-name;Qyoh (Nine stars) (short);
+bpm;242;
+music-offset;-3000;
+note-speed;20;
+::data
+0;2;
+0.3333;1;
+0.6666;0;
+1;4;

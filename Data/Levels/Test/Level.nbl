@@ -1,0 +1,9 @@
+::meta
+ignore-load-fail;true;
+bpm;100;
+note-speed;10;
+::data
+0;0
+1;1;0
+::event
+bpm-shift;2;160
