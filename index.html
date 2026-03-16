@@ -1,9 +1,277 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Sound Beyond the Nebula</title>
-    </head>
-    <body>
-        <h1>Here is static github host page.</h1>
-    </body>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Rift</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <div class="wrapper">
+        <header>
+            <nav class="nav reveal">
+                <div class="brand">
+                    <div class="brand-badge">GGM</div>
+                    <div>GGM Portfolio</div>
+                </div>
+                <div class="nav-links">
+                    <a href="#lists">Lists</a>
+                    <a href="#links">Links</a>
+                    <a href="#info">Info</a>
+                </div>
+                <a class="nav-cta" href="#launch">Launch Sequence</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow">
+                        <span class="dot"></span>
+                        <span>쓸데는 없지만 감탄은 나오는 인터페이스</span>
+                    </div>
+
+                    <h1>
+                        딱 보면<br />
+                        <span class="gradient-text">와 ㅆ 어케 만들었지</span>
+                        소리 나오는 페이지
+                    </h1>
+
+                    <p>
+                        의미보다 분위기, 생산성보다 압도감, 기능보다 연출에 모든 걸 몰빵한 데모 페이지입니다.
+                        별 기능은 없는데도 광원, 유리질감, 패럴랙스, 궤도 애니메이션, 마우스 반응형 글로우만으로
+                        ‘이거 뭐지?’ 하고 한 번 더 보게 만드는 감성에 집중했습니다.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a class="primary" href="#showcase">지금 구경하기</a>
+                        <a href="#features">효과 뜯어보기</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong>100%</strong>
+                            <span>쓸모없는 감성 과충전</span>
+                        </div>
+                        <div class="stat">
+                            <strong>0%</strong>
+                            <span>실무 효율 최적화</span>
+                        </div>
+                        <div class="stat">
+                            <strong>∞</strong>
+                            <span>괜히 멍하니 보게 됨</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="orbit-stage">
+                        <div class="ring"></div>
+
+                        <div class="floating-card card-a">
+                            <strong>Glass Depth</strong>
+                            <small>겹겹이 쌓인 블러와 반사광으로 유리 패널 느낌을 강조합니다.</small>
+                        </div>
+
+                        <div class="floating-card card-b">
+                            <strong>Reactive Glow</strong>
+                            <small>마우스를 따라 움직이는 광원으로 공간감이 살아납니다.</small>
+                        </div>
+
+                        <div class="floating-card card-c">
+                            <strong>Orbit Motion</strong>
+                            <small>정적인 페이지인데도 뭔가 계속 돌아가고 있는 듯 보입니다.</small>
+                        </div>
+
+                        <div class="floating-card card-d">
+                            <strong>Hero Core</strong>
+                            <small>중앙 덩어리 하나만 세게 잡아도 페이지 인상이 확 달라집니다.</small>
+                        </div>
+
+                        <div class="core">
+                            <div class="core-content">
+                                <div>
+                                    <div class="chip-row">
+                                        <span class="chip">LIVE VISUAL</span>
+                                        <span class="chip">NO MODEL</span>
+                                        <span class="chip">PURE CSHTML</span>
+                                    </div>
+                                    <div class="core-title">Aesthetic Overload</div>
+                                    <div class="core-sub">
+                                        기능은 별거 없어도 디테일이 많아 보이게 만드는 시각적 착시를 적극적으로 사용했습니다.
+                                    </div>
+                                </div>
+
+                                <div class="bars">
+                                    <div class="bar" style="--w: 86%;"><span></span></div>
+                                    <div class="bar" style="--w: 68%;"><span></span></div>
+                                    <div class="bar" style="--w: 92%;"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="features">
+                <div class="section-head reveal">
+                    <div>
+                        <h2>한눈에 꽂히는 요소들</h2>
+                    </div>
+                    <p>
+                        사실 전부 엄청 복잡한 기술은 아닙니다. 하지만 여러 개를 동시에 겹치면
+                        체감 난이도와 완성도가 급격히 올라가 보입니다.
+                    </p>
+                </div>
+
+                <div class="grid-3">
+                    <article class="feature reveal">
+                        <div class="feature-icon">✦</div>
+                        <h3>초대형 타이포그래피</h3>
+                        <p>
+                            첫 화면에서 문장 하나를 압도적으로 크게 배치하면 내용보다 존재감이 먼저 들어옵니다.
+                            사용자는 읽기 전에 이미 분위기를 체감하게 됩니다.
+                        </p>
+                    </article>
+
+                    <article class="feature reveal">
+                        <div class="feature-icon">◎</div>
+                        <h3>다층 글로우와 유리 질감</h3>
+                        <p>
+                            배경 광원, 반투명 패널, 얇은 테두리, 블러를 겹치면 화면이 단순한 평면이 아니라
+                            깊이가 있는 오브젝트처럼 느껴집니다.
+                        </p>
+                    </article>
+
+                    <article class="feature reveal">
+                        <div class="feature-icon">↻</div>
+                        <h3>계속 살아있는 모션</h3>
+                        <p>
+                            페이지 전체가 아니라 일부 요소만 천천히 움직여도 살아있는 시스템처럼 보입니다.
+                            그래서 정적인 랜딩도 SF 인터페이스처럼 느껴집니다.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="showcase">
+                <div class="section-head reveal">
+                    <div>
+                        <h2>과하게 있어 보이는 구성</h2>
+                    </div>
+                    <p>
+                        실제 서비스 설명은 거의 없는데도, 뭔가 대단한 제품 같아 보이게 만드는 쇼케이스 섹션입니다.
+                    </p>
+                </div>
+
+                <div class="grid-2">
+                    <article class="showcase-card reveal">
+                        <h3>Color Spectrum Engine</h3>
+                        <p>
+                            돌아가는 광원층 하나만 둬도 백엔드에서 뭔가 복잡한 계산을 하고 있을 것 같은 느낌이 납니다.
+                            물론 실제로는 순수 CSS 애니메이션입니다.
+                        </p>
+                        <div class="spectrum"></div>
+                    </article>
+
+                    <article class="showcase-card reveal">
+                        <h3>Fake Control Surface</h3>
+                        <p>
+                            인터랙티브한 관리 패널처럼 보이지만 실은 레이아웃 연출입니다.
+                            그래도 사람들이 보면 일단 눌러보고 싶어집니다.
+                        </p>
+
+                        <div class="fake-window">
+                            <div class="window-top">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="window-body">
+                                <div class="window-side">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="window-main">
+                                    <div class="line mid"></div>
+                                    <div class="line short"></div>
+                                    <div class="mini-grid">
+                                        <div class="mini-card"></div>
+                                        <div class="mini-card"></div>
+                                        <div class="mini-card"></div>
+                                        <div class="mini-card"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="info">
+                <div class="section-head reveal">
+                    <div>
+                        <h2>정보</h2>
+                    </div>
+                    <p>
+                        핵심은 ‘어려운 걸 많이 한 것처럼 보이게 만드는 배치’입니다.
+                        각각은 단순해도 조합이 좋으면 결과물이 세 보입니다.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-card reveal">
+                        <div class="step">01</div>
+                        <h3>배경을 비우지 않기</h3>
+                        <p>은은한 그리드, 노이즈, 방사형 글로우를 깔아 공간 자체에 밀도를 줍니다.</p>
+                    </article>
+
+                    <article class="timeline-card reveal">
+                        <div class="step">02</div>
+                        <h3>중앙 피사체 만들기</h3>
+                        <p>시선이 박히는 핵심 덩어리를 하나 만들고, 주변 정보를 그 주위에 띄워 배치합니다.</p>
+                    </article>
+
+                    <article class="timeline-card reveal">
+                        <div class="step">03</div>
+                        <h3>애니메이션 속도 늦추기</h3>
+                        <p>빠른 움직임보다 느린 궤도와 부유 애니메이션이 더 고급스럽고 비싸 보입니다.</p>
+                    </article>
+
+                    <article class="timeline-card reveal">
+                        <div class="step">04</div>
+                        <h3>카피도 연출의 일부로</h3>
+                        <p>설명을 기능 위주로 하지 않고, 보는 맛 자체를 상품처럼 느끼게 만드는 문장을 사용합니다.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="launch">
+                <div class="cta-panel reveal">
+                    <div>
+                        <h3>쓸모보다 인상을 남기는 페이지.</h3>
+                        <p>
+                            포트폴리오 첫 화면, 이벤트 소개 페이지, 개인 프로젝트 메인 랜딩처럼
+                            ‘일단 시선부터 잡아야 하는 화면’에 이런 스타일이 잘 어울립니다.
+                            모델 없이도 바로 넣어 쓸 수 있게 한 파일 안에 전부 담았습니다.
+                        </p>
+                    </div>
+                    <a href="#" class="panel-button">Enter The Rift</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-box reveal">
+                <div>
+                    Neon Rift · Overdesigned on purpose · Built in a single <strong>.cshtml</strong>
+                </div>
+                <a class="footer-button" href="#top">Back To Top</a>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
