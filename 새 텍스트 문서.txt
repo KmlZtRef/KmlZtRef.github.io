@@ -1,1 +1,12 @@
-Name10
+!MAX_MEM_SIZE = 64
+
+.main >
+.data > #00<10 > #01<48 >
+.code > $00<0 >
+.loop >
+;add $00 and #01
+	@01 < $00 >
+	@02 < #01 >
+	pstk < @03 >
+	cstk < .ret >
+	.ret>
