@@ -1,248 +1,43 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <script src="main.js" defer></script>
+    <script src="main.js"></script>
+    <title>AtCoder Categories</title>
 </head>
 <body>
-    <div class="noise"></div>
-    <div class="cursor-glow" id="cursorGlow"></div>
-
-    <div class="wrapper">
-        <header>
-            <nav class="nav reveal">
-                <div class="brand">
-                    <div class="brand-badge">GGM</div>
-                    <div>GGM Portfolio</div>
-                </div>
-                <div class="nav-links">
-                    <a href="#lists">Lists</a>
-                    <a href="#info">Info</a>
-                    <a href="#links">Links</a>
-                </div>
-                <a class="nav-cta" href="#launch">Launch Sequence</a>
-            </nav>
-        </header>
-
-        <main>
-            <section class="hero">
-                <div class="hero-copy reveal">
-                    <div class="eyebrow">
-                        <span class="dot"></span>
-                        <span>홍지후의 포트폴리오 사이트</span>
-                    </div>
-
-                    <h1>
-                        취업하고 싶은 사람의<br/>
-                        <span class="gradient-text">포트폴리오</span>
-                        정리 페이지
-                    </h1>
-
-                    <p>
-                        의미보다 분위기, 생산성보다 압도감, 기능보다 연출에 모든 걸 몰빵한 데모 페이지입니다.
-                        별 기능은 없는데도 광원, 유리질감, 패럴랙스, 궤도 애니메이션, 마우스 반응형 글로우만으로
-                        '이거 뭐지?' 하고 한 번 더 보게 만드는 감성에 집중했습니다.
-                    </p>
-
-                    <div class="hero-stats">
-                        <div class="stat">
-                            <strong>80%</strong>
-                            <span>Unity</span>
-                        </div>
-                        <div class="stat">
-                            <strong>75%</strong>
-                            <span>C#, C++ Syntax</span>
-                        </div>
-                        <div class="stat">
-                            <strong>65%</strong>
-                            <span>Algorithm</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero-visual reveal">
-                    <div class="orbit-stage">
-                        <div class="ring"></div>
-
-                        <div class="floating-card card-a">
-                            <strong>Glass Depth</strong>
-                            <small>겹겹이 쌓인 블러와 반사광으로 유리 패널 느낌을 강조합니다.</small>
-                        </div>
-
-                        <div class="floating-card card-b">
-                            <strong>Reactive Glow</strong>
-                            <small>마우스를 따라 움직이는 광원으로 공간감이 살아납니다.</small>
-                        </div>
-
-                        <div class="floating-card card-c">
-                            <strong>Orbit Motion</strong>
-                            <small>정적인 페이지인데도 뭔가 계속 돌아가고 있는 듯 보입니다.</small>
-                        </div>
-
-                        <div class="floating-card card-d">
-                            <strong>Hero Core</strong>
-                            <small>중앙 덩어리 하나만 세게 잡아도 페이지 인상이 확 달라집니다.</small>
-                        </div>
-
-                        <div class="core">
-                            <div class="core-content">
-                                <div>
-                                    <div class="chip-row">
-                                        <span class="chip">CSharp</span>
-                                        <span class="chip">Unity Engine</span>
-                                        <span class="chip">Cpp</span>
-                                    </div>
-                                    <div class="core-title">Game Development</div>
-                                    <div class="core-sub">
-                                        게임 개발 직군으로 취업하기를 희망합니다.
-                                    </div>
-                                </div>
-
-                                <div class="bars">
-                                    <div class="bar" style="--w: 86%;"><span></span></div>
-                                    <div class="bar" style="--w: 68%;"><span></span></div>
-                                    <div class="bar" style="--w: 92%;"><span></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section" id="lists">
-                <div class="section-head reveal">
-                    <div>
-                        <h2>대표 포트폴리오 목록</h2>
-                    </div>
-                    <p>
-                        개인적으로 마음에 들었거나 어필하고 싶은 포트폴리오 TOP3를 선정했습니다.
-                        나머지 포트폴리오는 첨부된 <a href="#links" class="text-link">링크</a>에서 볼 수 있습니다.
-                    </p>
-                </div>
-
-                <div class="grid-3">
-                    <article class="feature reveal">
-                        <div class="feature-icon">✦</div>
-                        <h3>포폴 제목 1</h3>
-                        <p>
-                            포폴 소개글
-                        </p>
-                    </article>
-
-                    <article class="feature reveal">
-                        <div class="feature-icon">◎</div>
-                        <h3>포폴 제목 2</h3>
-                        <p>
-                            포폴 소개글
-                        </p>
-                    </article>
-
-                    <article class="feature reveal">
-                        <div class="feature-icon">↻</div>
-                        <h3>포폴 제목 3</h3>
-                        <p>
-                            포폴 소개글
-                        </p>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section" id="info">
-                <div class="section-head reveal">
-                    <div>
-                        <h2>정보</h2>
-                    </div>
-                    <p>
-                        
-                    </p>
-                </div>
-
-                <div class="grid-2">
-                    <article class="showcase-card reveal">
-                        <h3>QBEL</h3>
-                        <p>
-                            QBEL은 직접 개발한 쓸모없는 프로그래밍 언어입니다.
-                            어셈블리와 비슷한 저수준 언어이지만, 인터프리터에서 돌아가기 때문에
-                            매우 느린 실행 속도를 가지고 있습니다.
-                            좋은점이라곤 코빼기도 찾아볼 수 없는 그냥 만들고 싶어서 만든 언어입니다.
-                        </p>
-                        <a href="/QBEL/download.html" class="download-button">다운로드 하러 가기</a>
-                    </article>
-
-                    <article class="showcase-card reveal">
-                        <h3>제목 2</h3>
-                        <p>
-                            잡다한 정보가 들어있는 판넬.22
-                        </p>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section" id="links">
-                <div class="section-head reveal">
-                    <div>
-                        <h2>링크</h2>
-                    </div>
-                    <p>
-                        관련 링크들을 정리해두었습니다.
-                    </p>
-                </div>
-
-                <div class="timeline">
-                    <article class="timeline-card reveal">
-                        <div class="step">01</div>
-                        <h3>유튜브</h3>
-                        <p>개발과 게임 관련 영상을 업로드하는 개인 유튜브 채널입니다.</p>
-                        <a href="https://www.youtube.com" target="_blank" class="article-link">유튜브 바로가기</a>
-                    </article>
-
-                    <article class="timeline-card reveal">
-                        <div class="step">02</div>
-                        <h3>겜마고 포트폴리오 사이트</h3>
-                        <p>모든 포트폴리오가 정리되어있는 겜마고 재학생 전용 사이트입니다.</p>
-                        <a href="https://ggm.gondr.net/user/profile/474" target="_blank" class="article-link">겜마고 바로가기</a>
-                    </article>
-
-                    <article class="timeline-card reveal">
-                        <div class="step">03</div>
-                        <h3>노션</h3>
-                        <p>지금까지 진행한 프로젝트의 세부 정보들을 정리해두었습니다.</p>
-                        <a href="https://www.notion.so" target="_blank" class="article-link">노션 바로가기</a>
-                    </article>
-
-                    <article class="timeline-card reveal">
-                        <div class="step">04</div>
-                        <h3>벨로그</h3>
-                        <p>블로그에 공부한 내용들을 적어두고 공유하고 있습니다.</p>
-                        <a href="https://velog.io/@_messil1234/posts" target="_blank" class="article-link">벨로그 바로가기</a>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section" id="launch">
-                <div class="cta-panel reveal">
-                    <div>
-                        <h3>마지막으로</h3>
-                        <p>
-                            대충 대충 할말 여기다 적고 끝냄
-                        </p>
-                    </div>
-                    <a href="#" class="panel-button">Enter The Rift</a>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="footer-box reveal">
-                <div>
-                    Page Published by Github Pages. Repository: kmlztref.github.io
-                </div>
-                <a class="footer-button" href="#top">Back To Top</a>
+    <div class="header">
+        <h1>AtCoder Categories</h1>
+    </div>
+    <div class="root-container">
+        <div class="category-container">
+            <div class="category-search">
+                <input type="text" id="category-filter-search-input" autocomplete="off" placeholder="Search category..." oninput="SearchFilter(this.value)"/>
             </div>
-        </footer>
+            <div id="category-list">
+
+            </div>
+        </div>
+        <div class="category-filters">
+            <div id="category-filters">
+                <button onclick="ClearFilter()">Clear Filters</button>
+                <div id="category-filters-list">
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <button onclick="Load()">Refresh</button>
+            <div id="content"> 
+                <div class="problem-container">
+                    <div class="problem-name">Test</div>
+                    <div class="problem-category">Test</div>
+                    <div class="problem-difficulty">Unknown</div>
+                    <a href="" class="problem-link">Link</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
-</html>
+</html> 
